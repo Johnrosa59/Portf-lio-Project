@@ -1,0 +1,95 @@
+* {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+
+@import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+@font-face {
+    font-family: JejuMyeongjo-regular;
+    src: url(../fonts/JejuMyeongjo-Regular.ttf);
+}
+
+body {
+    background: #F5F5F5;
+}
+
+.paragraph-name {
+    width: 226px;
+    height: 17px;
+    color: #000000;
+    font-size: 14px;
+    line-height: 14px;
+    text-align: left;
+}
+
+.name-container {
+    width: 60%;
+    height: 10%;
+    margin-top: 73px;
+    margin-left: 170px;
+    display: inline-block;
+
+}
+
+nav {
+    display: inline-block;
+    position: absolute;
+    margin-top: 66px;
+}
+
+a {
+    color: #000000;
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: left;
+    margin-right: 25px;
+    width: 400px;
+    height: 300px;
+}
+
+h1 {
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 64px;
+}
+
+.my-description {
+    width: 367px;
+    height: 64px;
+    font-family: JejuMyeongjo-regular;
+    font-size: 32px;
+    line-height: 32px;
+}
+
+.img-container {
+    margin-top: 100px;
+}
+
+.final-description {
+    width: 432px;
+    height: 64px;
+    font-family: 'JetBrains Mono', monospace;
+    font-size: 24px;
+    line-height: 32px;
+    margin-top: 50px;
+}
+
+.left-section {
+    margin: 110px 0 0 238px;
+    display: inline-block;
+}
+
+.right-section {
+    display: inline-block;
+}
+
+.me-image {
+    width: 540px;
+    height: 540px;
+}
