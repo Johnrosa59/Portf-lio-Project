@@ -10,16 +10,17 @@
 </head>
 
 <body>
-    <div class="name-container">
-        <p class="paragraph-name">João Vitor Rosa</p>
-    </div>
-    <nav>
-        <a href="index.html">Home</a>
-        <a href="sobre.html">Sobre</a>
-        <a href="Projetos">Projetos</a>
-        <a href="Linkedin.html">LinkedIn</a>
-    </nav>
-
+    <header>
+        <div class="name-container">
+            <p class="paragraph-name">João Vitor Rosa</p>
+        </div>
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="#about">Sobre</a>
+            <a href="Projetos">Projetos</a>
+            <a href="Linkedin.html">LinkedIn</a>
+        </nav>
+    </header>
     <section class="left-section">
         <h1>João Vitor Rosa</h1>
         <p class="my-description">Sou um Desenvolvedor Front End (HTML, CSS, Javascript)</p>
@@ -31,8 +32,24 @@
         </div>
         <p class="final-description">Um Dev Front End apaixonado por código e técnologia</p>
     </section>
-    <section class="right-section">
-        <img src="./img/Perfil.png" alt="Me image" class="me-image">
+    <section id="about" class="about-left-container">
+        <img src="./img/Perfil.png" alt="Foto de perfil João Vitor Rosa" class="perfil-photo">
+    </section>
+    <section class="about-right-container">
+        <p class="about-me">Olá, meu nome é João Vitor Rosa, sou Desenvolvedor Front-End, tenho 26 anos,
+            possuo experiência em desenvolvimento de sites, tenho habilidades nas seguintes tecnologias:
+            HTML, CSS, Javascript, Git, GitHub.</p>
+        <img src="./img/html,css,javascript.png" alt="HTML CSS Javascript" class="technology-html-css-javascript">
+    </section>
+    <section>
+        <div class="container">
+            <div class="box-website-1">
+                <img src="./img/1-site.png" alt="Site para portfólio 1" class="img-site-1">
+            </div>
+            <div class="box-website-2">
+                <img src="./img/2-site.png" alt="Site para portfólio 2" class="img-site-2">
+            </div>
+        </div>
     </section>
 </body>
 
