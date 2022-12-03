@@ -147,7 +147,7 @@ h1 {
     width: 470px;
     height: 260px;
     background: #d2cdcdcb;
-    margin-left: 630px;
+    margin-left: 620px;
     position: absolute;
     margin-top: 60px;
     border-radius: 30px;
@@ -197,7 +197,7 @@ h1 {
     height: 260px;
     background: #d2cdcdcb;
     position: absolute;
-    margin-left: 610px;
+    margin-left: 620px;
     margin-top: 345px;
     border-radius: 30px;
 }
@@ -220,7 +220,7 @@ h1 {
     height: 260px;
     background: #d2cdcdcb;
     position: absolute;
-    margin-top: 645px;
+    margin-top: 630px;
     margin-left: 60px;
     border-radius: 30px;
 }
@@ -242,9 +242,9 @@ h1 {
     height: 260px;
     background: #d2cdcdcb;
     position: absolute;
-    margin-top: 645px;
+    margin-top: 630px;
     border-radius: 30px;
-    margin-left: 610px;
+    margin-left: 620px;
 }
 
 .img-site-6 {
