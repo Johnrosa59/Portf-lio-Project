@@ -54,6 +54,10 @@ a {
     height: 300px;
 }
 
+a:hover {
+    background: #d2cdcdcb;
+}
+
 h1 {
     font-family: 'JetBrains Mono', monospace;
     font-size: 64px;
@@ -120,7 +124,7 @@ h1 {
 .container {
     background: #fefefe;
     width: 1140px;
-    height: 1200px;
+    height: 920px;
     margin: 200px 0 0 200px;
 }
 
@@ -216,7 +220,7 @@ h1 {
     height: 260px;
     background: #d2cdcdcb;
     position: absolute;
-    margin-top: 625px;
+    margin-top: 645px;
     margin-left: 60px;
     border-radius: 30px;
 }
@@ -231,4 +235,43 @@ h1 {
 .box-website-5:hover {
     box-shadow: 5px 5px 5px rgb(175, 1, 1);
     cursor: pointer;
+}
+
+.box-website-6 {
+    width: 470px;
+    height: 260px;
+    background: #d2cdcdcb;
+    position: absolute;
+    margin-top: 645px;
+    border-radius: 30px;
+    margin-left: 610px;
+}
+
+.img-site-6 {
+    padding-top: 45px;
+    padding-left: 45px;
+    width: 427px;
+    height: 220px;
+}
+
+.box-website-6:hover {
+    box-shadow: 5px 5px 5px rgb(175, 1, 1);
+    cursor: pointer;
+}
+
+.box-content-linkedin {
+    width: 300px;
+    height: 200px;
+    background: #fefefe;
+    margin-top: 50px;
+    margin-left: 200px;
+}
+
+.text-title-project {
+    font-size: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 520px;
+    position: absolute;
+    margin-top: 20px;
+    text-decoration: underline;
 }
