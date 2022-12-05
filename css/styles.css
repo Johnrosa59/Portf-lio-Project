@@ -260,11 +260,16 @@ h1 {
 }
 
 .box-content-linkedin {
-    width: 300px;
+    width: 600px;
     height: 200px;
     background: #fefefe;
     margin-top: 50px;
     margin-left: 200px;
+}
+
+.box-content-linkedin:hover {
+    box-shadow: 5px 5px 5px rgb(175, 1, 1);
+    cursor: pointer;
 }
 
 .text-title-project {
@@ -274,4 +279,33 @@ h1 {
     position: absolute;
     margin-top: 20px;
     text-decoration: underline;
+}
+
+.icon-linkedin {
+    width: 200px;
+    height: 200px;
+    display: inline-block;
+}
+
+.Linkedin-text-perfil {
+    display: inline-block;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 40px;
+    font-size: 24px;
+    font-family: 'JetBrains Mono', monospace;
+}
+
+.portfolio-footer {
+    background: #000000;
+    width: 100vw;
+    height: 300px;
+    margin-top: 80px;
+}
+
+.p-footer {
+    color: #fff;
+    font-size: 24px;
+    font-family: 'JetBrains Mono', monospace;
+    margin-left: 500px;
 }
