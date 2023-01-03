@@ -1,7 +1,7 @@
 <h1>Portfólio Project</h1>
 <br>
 <br>
-<h2>Esse é o site do meu portfólio os projetos foram feitos por mim</h2>
+<h2>Esse é o site do meu portfólio, os projetos foram feitos por mim</h2>
   
   <h2>Sobre o Projeto</h2>
   
